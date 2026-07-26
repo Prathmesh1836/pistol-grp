@@ -11,10 +11,10 @@ export default function Team() {
 
   const filteredMembers = PISTOL_TEAM.filter((member) => {
     if (filter === "all") return true;
-    if (filter === "tech" && (member.wing === "tech-software" || member.wing === "ai-research")) return true;
-    if (filter === "robotics" && member.wing === "robotics-hardware") return true;
-    if (filter === "creative" && member.wing === "creative-media") return true;
-    if (filter === "ops" && (member.wing === "events-pr" || member.wing === "entrepreneurship")) return true;
+    if (filter === "content" && member.wing === "content") return true;
+    if (filter === "security" && member.wing === "security") return true;
+    if (filter === "tech" && member.wing === "tech-ai") return true;
+    if (filter === "production" && member.wing === "production") return true;
     return false;
   });
 
@@ -64,10 +64,10 @@ export default function Team() {
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {[
             { id: "all", label: "All Council" },
+            { id: "content", label: "Content" },
+            { id: "security", label: "Security" },
             { id: "tech", label: "Tech & AI" },
-            { id: "robotics", label: "Robotics & Hardware" },
-            { id: "creative", label: "Design & Media" },
-            { id: "ops", label: "Operations & E-Cell" },
+            { id: "production", label: "Production Team" },
           ].map((item) => (
             <button
               key={item.id}
