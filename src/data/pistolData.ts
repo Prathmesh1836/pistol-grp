@@ -231,6 +231,19 @@ export const PISTOL_TEAM: TeamMember[] = [
     instagram: "https://instagram.com",
     featured: true,
   },
+  {
+    id: "7",
+    name: "Charanveer Singh Karwar",
+    role: "Head of AI Research",
+    wing: "tech-ai",
+    year: "3rd Year CSE",
+    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    bio: "Head of AI Research leading neural network architecture, computer vision, and predictive model exploration.",
+    linkedin: "https://linkedin.com",
+    github: "https://github.com",
+    instagram: "https://instagram.com",
+    featured: true,
+  },
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
