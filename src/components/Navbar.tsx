@@ -72,8 +72,8 @@ export default function Navbar({ onOpenJoinModal }: NavbarProps) {
               onClick={(e) => handleNavClick(e, "#hero")}
               className="flex items-center space-x-3 group cursor-pointer"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-pistol-600 via-rose-500 to-cyber-cyan flex items-center justify-center shadow-lg shadow-pistol-600/30 group-hover:scale-110 transition-transform duration-300">
-                <ShieldAlert className="w-6 h-6 text-white group-hover:rotate-12 transition-transform duration-300" />
+              <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg shadow-pistol-600/30 group-hover:scale-110 transition-transform duration-300">
+                <img src="/logo.png" alt="Pistol Group Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-extrabold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-100 to-rose-400 group-hover:text-rose-400 transition-colors">

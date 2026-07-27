@@ -18,8 +18,8 @@ export default function Footer() {
           {/* Col 1: Brand Info */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-pistol-600 via-rose-500 to-cyber-cyan flex items-center justify-center shadow-lg shadow-pistol-600/30">
-                <ShieldAlert className="w-6 h-6 text-white" />
+              <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg shadow-pistol-600/30">
+                <img src="/logo.png" alt="Pistol Group Logo" className="w-full h-full object-cover" />
               </div>
               <span className="text-2xl font-black tracking-wider text-white">
                 PISTOL<span className="text-rose-500">GROUP</span>

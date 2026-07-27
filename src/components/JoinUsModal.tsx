@@ -81,8 +81,8 @@ export default function JoinUsModal({ isOpen, onClose, defaultWingId }: JoinUsMo
           {!isSubmitted ? (
             <>
               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-pistol-600 to-rose-500 flex items-center justify-center shadow-lg">
-                  <ShieldAlert className="w-6 h-6 text-white" />
+                <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg">
+                  <img src="/logo.png" alt="Pistol Group Logo" className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-black text-white">Join Pistol Group</h3>
