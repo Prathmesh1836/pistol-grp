@@ -237,7 +237,7 @@ export const PISTOL_TEAM: TeamMember[] = [
     role: "Head of AI Research",
     wing: "tech-ai",
     year: "3rd Year CSE",
-    avatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80",
+    avatar: "/leadership/charanveer_singh_karwar.jpg",
     bio: "Head of AI Research leading neural network architecture, computer vision, and predictive model exploration.",
     linkedin: "https://linkedin.com",
     github: "https://github.com",
