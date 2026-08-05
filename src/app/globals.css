@@ -4,22 +4,26 @@
 
 @layer base {
   :root {
-    --bg-main: #080c14;
-    --card-bg: rgba(15, 23, 42, 0.65);
-    --card-border: rgba(255, 255, 255, 0.08);
+    --font-sans: var(--font-outfit), system-ui, -apple-system, sans-serif;
+    --font-heading: var(--font-space-grotesk), sans-serif;
+    --bg-main: #030712;
+    --card-bg: rgba(9, 10, 15, 0.7);
+    --card-border: rgba(255, 255, 255, 0.05);
   }
 
   body {
     background-color: var(--bg-main);
     color: #f3f4f6;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--font-sans);
     overflow-x: hidden;
-    selection-background-color: #f43f5e;
-    selection-color: #ffffff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
   }
 
   ::selection {
-    background-color: #f43f5e;
+    background-color: #f59e0b;
     color: #ffffff;
   }
 }
@@ -29,23 +33,23 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #080c14;
+  background: #030712;
 }
 ::-webkit-scrollbar-thumb {
   background: #1e293b;
   border-radius: 4px;
-  border: 1px solid rgba(244, 63, 94, 0.3);
+  border: 1px solid rgba(245, 158, 11, 0.3);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #f43f5e;
+  background: #f59e0b;
 }
 
 /* Glassmorphism Cards */
 .glass-panel {
-  background: rgba(15, 23, 42, 0.65);
+  background: rgba(9, 10, 15, 0.7);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -54,38 +58,38 @@
 }
 
 .glass-panel-hover:hover {
-  background: rgba(23, 32, 54, 0.85);
-  border-color: rgba(244, 63, 94, 0.4);
-  box-shadow: 0 12px 40px 0 rgba(244, 63, 94, 0.15);
+  background: rgba(17, 18, 25, 0.85);
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 12px 40px 0 rgba(245, 158, 11, 0.15);
   transform: translateY(-4px);
 }
 
 /* Cyber Metallic Glow */
 .glow-text-rose {
-  text-shadow: 0 0 20px rgba(244, 63, 94, 0.6), 0 0 40px rgba(244, 63, 94, 0.3);
+  text-shadow: 0 0 20px rgba(245, 158, 11, 0.6), 0 0 40px rgba(245, 158, 11, 0.3);
 }
 
 .glow-text-cyan {
-  text-shadow: 0 0 20px rgba(0, 240, 255, 0.6), 0 0 40px rgba(0, 240, 255, 0.3);
+  text-shadow: 0 0 20px rgba(16, 185, 129, 0.6), 0 0 40px rgba(16, 185, 129, 0.3);
 }
 
 /* Grid pattern background */
 .bg-grid-pattern {
   background-size: 40px 40px;
   background-image: 
-    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
 }
 
 /* Radial Glow Gradient Spotlights */
 .radial-glow-rose {
-  background: radial-gradient(circle at center, rgba(244, 63, 94, 0.18) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(245, 158, 11, 0.15) 0%, transparent 70%);
 }
 
 .radial-glow-cyan {
-  background: radial-gradient(circle at center, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(16, 185, 129, 0.12) 0%, transparent 70%);
 }
 
 .radial-glow-purple {
-  background: radial-gradient(circle at center, rgba(112, 0, 255, 0.15) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(5, 150, 105, 0.12) 0%, transparent 70%);
 }

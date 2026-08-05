@@ -60,8 +60,10 @@ export default function Hero({ onOpenJoinModal }: HeroProps) {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="max-w-3xl mx-auto text-base sm:text-xl text-gray-300 font-normal leading-relaxed mb-10"
         >
-          Empowering college minds through cutting-edge technology, hardware robotics, 
-          creative design, and high-octane leadership. We don&apos;t just build projects—we build legends.
+          Unlimited Confidence. Zero Talent. Infinite Bakchodi.<br />
+          We don&apos;t chase fame—we create stories.<br />
+          Every day is a new adventure, every reel is a new kand.<br />
+          Just a bunch of friends making college life unforgettable.
         </motion.p>
 
         {/* Call to Actions */}
