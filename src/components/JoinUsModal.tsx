@@ -82,10 +82,10 @@ export default function JoinUsModal({ isOpen, onClose, defaultWingId }: JoinUsMo
             <>
               <div className="flex items-center space-x-3 mb-6">
                 <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg">
-                  <img src="/logo.png" alt="Pistol Group Logo" className="w-full h-full object-cover" />
+                  <img src="/logo.png" alt="Pistal Group Logo" className="w-full h-full object-cover" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-black text-white">Join Pistol Group</h3>
+                  <h3 className="text-2xl font-black text-white">Join Pistal Group</h3>
                   <p className="text-xs text-rose-400 font-semibold">Official Student Recruitment Application</p>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function JoinUsModal({ isOpen, onClose, defaultWingId }: JoinUsMo
 
                 <div>
                   <label className="block text-xs font-bold text-gray-300 uppercase tracking-wider mb-1.5">
-                    Why do you want to join Pistol Group? *
+                    Why do you want to join Pistal Group? *
                   </label>
                   <textarea
                     required
@@ -214,7 +214,7 @@ export default function JoinUsModal({ isOpen, onClose, defaultWingId }: JoinUsMo
               </div>
               <h3 className="text-3xl font-black text-white mb-2">Application Received!</h3>
               <p className="text-gray-300 text-sm max-w-md mx-auto mb-6">
-                Thank you <span className="font-bold text-rose-400">{formData.fullName}</span>! Your recruitment application for Pistol Group has been logged. Our leadership council will contact you via your email for the interview round.
+                Thank you <span className="font-bold text-rose-400">{formData.fullName}</span>! Your recruitment application for Pistal Group has been logged. Our leadership council will contact you via your email for the interview round.
               </p>
               <button
                 onClick={handleReset}

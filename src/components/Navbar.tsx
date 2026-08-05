@@ -73,11 +73,11 @@ export default function Navbar({ onOpenJoinModal }: NavbarProps) {
               className="flex items-center space-x-3 group cursor-pointer"
             >
               <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg shadow-pistol-600/30 group-hover:scale-110 transition-transform duration-300">
-                <img src="/logo.png" alt="Pistol Group Logo" className="w-full h-full object-cover" />
+                <img src="/logo.png" alt="Pistal Group Logo" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-extrabold tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-100 to-rose-400 group-hover:text-rose-400 transition-colors">
-                  PISTOL<span className="text-pistol-500">GROUP</span>
+                  PISTAL<span className="text-pistol-500">GROUP</span>
                 </span>
                 <span className="text-[10px] tracking-widest uppercase font-semibold text-cyan-400/80 -mt-1">
                   Innovate &bull; Elevate &bull; Lead
@@ -119,7 +119,7 @@ export default function Navbar({ onOpenJoinModal }: NavbarProps) {
               >
                 <span className="relative z-10 flex items-center space-x-2">
                   <Sparkles className="w-4 h-4 text-cyan-300 group-hover:rotate-12 transition-transform duration-300" />
-                  <span>Join Pistol Group</span>
+                  <span>Join Pistal Group</span>
                   <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-cyber-cyan via-pistol-500 to-rose-600 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

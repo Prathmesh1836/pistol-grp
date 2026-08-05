@@ -19,10 +19,10 @@ export default function Footer() {
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-xl overflow-hidden bg-white flex items-center justify-center shadow-lg shadow-pistol-600/30">
-                <img src="/logo.png" alt="Pistol Group Logo" className="w-full h-full object-cover" />
+                <img src="/logo.png" alt="Pistal Group Logo" className="w-full h-full object-cover" />
               </div>
               <span className="text-2xl font-black tracking-wider text-white">
-                PISTOL<span className="text-rose-500">GROUP</span>
+                PISTAL<span className="text-rose-500">GROUP</span>
               </span>
             </div>
 
@@ -101,9 +101,9 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-500 flex items-center space-x-1">
-            <span>&copy; {new Date().getFullYear()} Pistol Group. Crafted with</span>
+            <span>&copy; {new Date().getFullYear()} Pistal Group. Crafted with</span>
             <Heart className="w-3.5 h-3.5 text-rose-500 inline fill-rose-500" />
-            <span>by Pistol Group Tech Team.</span>
+            <span>by Pistal Group Tech Team.</span>
           </p>
 
           <motion.button

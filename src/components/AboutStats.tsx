@@ -18,7 +18,7 @@ export default function AboutStats() {
   const tabsContent = {
     mission: {
       title: "Engineered for Student Innovation",
-      desc: "Pistol Group was established to bridge the gap between academic theory and high-impact practical execution. We empower student engineers, designers, and visionaries to collaborate on ambitious technical & creative ventures.",
+      desc: "Pistal Group was established to bridge the gap between academic theory and high-impact practical execution. We empower student engineers, designers, and visionaries to collaborate on ambitious technical & creative ventures.",
       bullets: [
         "Fostering peer-to-peer mentorship across all college years",
         "Providing state-of-the-art lab hardware and software tooling",
@@ -36,7 +36,7 @@ export default function AboutStats() {
     },
     impact: {
       title: "Leaving an Indelible Campus Footprint",
-      desc: "From winning national hackathons to launching student-led startups and building campus utility applications, Pistol Group continues to redefine student leadership.",
+      desc: "From winning national hackathons to launching student-led startups and building campus utility applications, Pistal Group continues to redefine student leadership.",
       bullets: [
         "Top rankings in national university tech & robotics leagues",
         "Building digital tools used daily by 5,000+ campus students",
@@ -113,7 +113,7 @@ export default function AboutStats() {
                       <h4 className={`font-bold text-lg ${isActive ? "text-white" : "text-gray-300"}`}>
                         {tab.label}
                       </h4>
-                      <p className="text-xs text-gray-400">Discover what defines Pistol Group</p>
+                      <p className="text-xs text-gray-400">Discover what defines Pistal Group</p>
                     </div>
                   </div>
                   {isActive && <CheckCircle className="w-5 h-5 text-rose-400" />}
@@ -155,7 +155,7 @@ export default function AboutStats() {
         </div>
 
         {/* Statistics Cards Counter */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
           {PISTOL_STATS.map((stat, idx) => {
             const IconComponent = statIconMap[stat.icon] || Trophy;
             return (

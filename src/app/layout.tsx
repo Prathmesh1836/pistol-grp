@@ -13,9 +13,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Pistol Group | Official College Innovation & Engineering Syndicate",
-  description: "Official website of Pistol Group - premier college engineering, robotics, creative media, AI research & student leadership group.",
-  keywords: ["Pistol Group", "College Group", "Student Syndicate", "Robotics Club", "Tech Club", "College Innovation"],
+  title: "Pistal Group | Official College Innovation & Engineering Syndicate",
+  description: "Official website of Pistal Group - premier college engineering, robotics, creative media, AI research & student leadership group.",
+  keywords: ["Pistal Group", "College Group", "Student Syndicate", "Robotics Club", "Tech Club", "College Innovation"],
 };
 
 export default function RootLayout({

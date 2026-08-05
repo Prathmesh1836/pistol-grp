@@ -49,7 +49,7 @@ export default function Hero({ onOpenJoinModal }: HeroProps) {
         >
           WE ARE THE <br />
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-rose-400 to-rose-600 glow-text-rose">
-            PISTOL GROUP
+            PISTAL GROUP
           </span>
         </motion.h1>
 
@@ -96,13 +96,12 @@ export default function Hero({ onOpenJoinModal }: HeroProps) {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto"
+          className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto"
         >
           {[
-            { icon: Zap, title: "150+ Members", desc: "Active Innovators" },
-            { icon: Shield, title: "6 Domain Wings", desc: "Specialized Labs" },
-            { icon: Flame, title: "35+ Bootcamps", desc: "Hands-on Workshops" },
-            { icon: Sparkles, title: "18+ Trophies", desc: "National Victories" },
+            { icon: Zap, title: "20+ Active Bakchods", desc: "Active Members" },
+            { icon: Shield, title: "3 Specialized Wings", desc: "Specialized Labs" },
+            { icon: Sparkles, title: "1 Trophy", desc: "National Victories" },
           ].map((item, idx) => (
             <div
               key={idx}

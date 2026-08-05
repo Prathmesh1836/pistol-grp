@@ -46,7 +46,7 @@ export default function Team() {
           >
             Meet the Minds Behind <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-400 via-rose-500 to-cyan-400">
-              Pistol Group Leadership
+              Pistal Group Leadership
             </span>
           </motion.h2>
           <motion.p
