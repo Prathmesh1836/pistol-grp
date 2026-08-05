@@ -17,30 +17,30 @@ export default function AboutStats() {
 
   const tabsContent = {
     mission: {
-      title: "Engineered for Student Innovation",
-      desc: "Pistal Group was established to bridge the gap between academic theory and high-impact practical execution. We empower student engineers, designers, and visionaries to collaborate on ambitious technical & creative ventures.",
+      title: "Creating Problems Since First Year",
+      desc: "We don't wait for memories to happen—we create them. Every bunk, every trip, every random plan adds another chapter to our college story.",
       bullets: [
-        "Fostering peer-to-peer mentorship across all college years",
-        "Providing state-of-the-art lab hardware and software tooling",
-        "Encouraging cross-disciplinary collaboration between engineers and designers",
+        "No boring days",
+        "No unnecessary drama (okay... sometimes 😅)",
+        "Just unlimited memories",
       ],
     },
     culture: {
-      title: "Hard Work, High Energy, Zero Limits",
-      desc: "Our culture thrives on late-night hackathons, relentless debugging sessions, dynamic brainstorming, and celebrating every victory together as one united college family.",
+      title: "Confidence High. Logic Low. Bakchodi Unlimited.",
+      desc: "We're not the smartest people on campus, but we're definitely the loudest when we're together. If there's a random plan, we're already there.",
       bullets: [
-        "Open-source mindset and collaborative knowledge sharing",
-        "High-performance work ethics coupled with campus festival spirit",
-        "Direct access to alumni mentors leading global tech firms",
+        "Unlimited confidence",
+        "Zero planning",
+        "Infinite bakchodi",
       ],
     },
     impact: {
-      title: "Leaving an Indelible Campus Footprint",
-      desc: "From winning national hackathons to launching student-led startups and building campus utility applications, Pistal Group continues to redefine student leadership.",
+      title: "Legends in Our Own Group Chat",
+      desc: "We're not here to impress the internet. We're here to make sure nobody graduates without a lifetime of unforgettable stories.",
       bullets: [
-        "Top rankings in national university tech & robotics leagues",
-        "Building digital tools used daily by 5,000+ campus students",
-        "100% placement rate for active core team members in top tier firms",
+        "Creating memories, not followers",
+        "Friends today, family forever",
+        "Every kand deserves a reel",
       ],
     },
   };
