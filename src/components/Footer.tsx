@@ -27,7 +27,10 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              The premier student innovation syndicate & official college group. Empowering engineers, designers, and creators to shape the technology of tomorrow.
+              Unlimited Confidence. Zero Talent. Infinite Bakchodi.<br />
+              We don&apos;t chase fame—we create stories.<br />
+              Every day is a new adventure, every reel is a new kand.<br />
+              Just a bunch of friends making college life unforgettable.
             </p>
 
             <div className="flex items-center space-x-3 pt-2">
@@ -86,9 +89,8 @@ export default function Footer() {
           <div className="md:col-span-4 space-y-3">
             <h4 className="text-sm font-extrabold uppercase tracking-wider text-white">Campus Chapter</h4>
             <p className="text-sm text-gray-400 leading-relaxed">
-              Main Innovation Lab & Tech Studio, <br />
-              Department of Computer Science & Engineering, <br />
-              Campus Block 4, University Headquarters.
+              Techno India NJR Institute of Technology <br />
+              Biliya, Rajasthan 313003
             </p>
             <div className="pt-2">
               <span className="inline-block px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold">
